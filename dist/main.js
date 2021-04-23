@@ -1,1 +1,1 @@
-(()=>{document.body.appendChild(function(){const e=document.createElement("div");return e.innerHTML="Hello  webpack",e}());let e="https://registry.npmjs.org/JQ";e=`https://cors-anywhere.herokuapp.com/${e}`,axios(e).then((e=>console.log(e.data)))})();
+document.body.appendChild(function(){const e=document.createElement("div");return e.innerHTML="Hello  webpack",e}()),axios("https://registry.npmjs.org/JQ").then((e=>console.log(e.data)));

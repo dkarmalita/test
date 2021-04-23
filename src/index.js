@@ -14,7 +14,7 @@ document.body.appendChild(component());
 
 let requestUrl = 'https://registry.npmjs.org/JQ';
 const corsProxy = 'https://cors-anywhere.herokuapp.com/';
-requestUrl = `${corsProxy}${requestUrl}`;
+// requestUrl = `${corsProxy}${requestUrl}`;
 
 axios(requestUrl)
   .then((res) => console.log(res.data));
